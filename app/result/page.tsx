@@ -4,7 +4,7 @@ import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 import { Suspense } from "react";
 
-export default function Result() {
+export default function ResultPage() {
     return (
         <Suspense fallback={<p className="text-white text-center mt-8">Loading...</p>}>
             <ResultContent />

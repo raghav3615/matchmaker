@@ -2,17 +2,26 @@
 
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
+import { Suspense } from "react";
 
 export default function Result() {
+    return (
+        <Suspense fallback={<p className="text-white text-center mt-8">Loading...</p>}>
+            <ResultContent />
+        </Suspense>
+    );
+}
+
+function ResultContent() {
     const searchParams = useSearchParams();
     const name = searchParams.get("name");
 
     return (
         <div className="flex justify-center min-h-screen bg-black">
             <div className="text-center">
-            <h1 className="text-white text-3xl mb-8 mt-8">
-                 Hello, {name}! Here&apos;s your match:
-            </h1>
+                <h1 className="text-white text-3xl mb-8 mt-8">
+                    Hello, {name}! Here&apos;s your match:
+                </h1>
 
                 <div className="relative w-64 h-64 flex  mx-auto">
                     <Image 

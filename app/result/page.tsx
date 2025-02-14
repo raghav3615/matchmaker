@@ -10,15 +10,16 @@ export default function Result() {
     return (
         <div className="flex justify-center min-h-screen bg-black">
             <div className="text-center">
-                <h1 className="text-white text-3xl mb-8 mt-8">
-                    Hello, {name}! Here's your match:
-                </h1>
-                <div className="relative w-64 h-64 mx-auto">
+            <h1 className="text-white text-3xl mb-8 mt-8">
+                 Hello, {name}! Here&apos;s your match:
+            </h1>
+
+                <div className="relative w-64 h-64 flex  mx-auto">
                     <Image 
                         src="/meme.jpg" 
                         alt="Your match" 
                         fill 
-                        className="object-cover"
+                        layout="fill" className="full"
                     />
                 </div>
                 <div>

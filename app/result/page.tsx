@@ -34,7 +34,7 @@ function ResultContent() {
                 <div>
                     <p className="text-white mt-8 text-2xl">Instead, watch these videos 🤓:</p>
                     <div className="flex flex-col md:flex-row justify-center space-y-6 md:space-y-4 md:space-x-8 mt-4 items-center">
-                        <a href="https://www.example1.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://youtube.com/playlist?list=PL980gcR1LE3LBuWuSv2CL28HsfnpC4Qf7&si=ICxiiwdKdY_mOZby" target="_blank" rel="noopener noreferrer">
                             <Image src="/thumbnail1.png" alt="Video Thumbnail 1" width={300} height={300} className="rounded-lg" />
                         </a>
                         <a href="https://www.youtube.com/playlist?list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y" target="_blank" rel="noopener noreferrer">

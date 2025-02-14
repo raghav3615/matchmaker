@@ -43,7 +43,7 @@ export default function RootLayout({
                 <Twitter className="w-5 h-5 mr-1" />
               </Link>
               <Link
-                href="https://linkedin.com/raghavhere"
+                href="https://www.linkedin.com/in/raghavhere/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center"

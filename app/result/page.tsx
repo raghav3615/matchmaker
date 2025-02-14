@@ -1,18 +1,25 @@
-"use client"
+"use client";
 
-import { useSearchParams } from "next/navigation"
-import Image from "next/image"
+import { useSearchParams } from "next/navigation";
+import Image from "next/image";
 
 export default function Result() {
-    const searchParams = useSearchParams()
-    const name = searchParams.get("name")
+    const searchParams = useSearchParams();
+    const name = searchParams.get("name");
 
     return (
         <div className="flex justify-center min-h-screen bg-black">
             <div className="text-center">
-                <h1 className="text-white text-3xl mb-8 mt-8">Hello, {name}! Here's your match:</h1>
+                <h1 className="text-white text-3xl mb-8 mt-8">
+                    Hello, {name}! Here's your match:
+                </h1>
                 <div className="relative w-64 h-64 mx-auto">
-                    <Image src="/meme.jpg" alt="Your match" layout="fill" className="full" />
+                    <Image 
+                        src="/meme.jpg" 
+                        alt="Your match" 
+                        fill 
+                        className="object-cover"
+                    />
                 </div>
                 <div>
                     <p className="text-white mt-8 text-2xl">Instead, watch these videos 🤓:</p>

@@ -27,7 +27,7 @@ export default function RootLayout({
             </Link>
             <div className="space-x-4">
               <Link
-                href="https://github.com"
+                href="https://github.com/raghav3615"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center"
@@ -35,7 +35,7 @@ export default function RootLayout({
                 <Github className="w-5 h-5 mr-1" />
               </Link>
               <Link
-                href="https://twitter.com"
+                href="https://twitter.com/raghav_dadhich"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center"
@@ -43,7 +43,7 @@ export default function RootLayout({
                 <Twitter className="w-5 h-5 mr-1" />
               </Link>
               <Link
-                href="https://linkedin.com"
+                href="https://linkedin.com/raghavhere"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center"
